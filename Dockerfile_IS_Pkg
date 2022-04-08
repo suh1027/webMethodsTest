@@ -1,0 +1,5 @@
+FROM 192.168.1.131:5000/cudo-devops/custom-msr:2.0
+
+MAINTAINER SoftwareAG
+
+COPY --chown=1724:1724 ./DockerTest/ ${SAG_HOME}/IntegrationServer/packages/DockerTest/

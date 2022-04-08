@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">yes</value>
+  <value name="version">10.5.0.0</value>
+  <value name="build">272</value>
+  <null name="startup_services"/>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <value name="listACL">Developers</value>
+  <value name="name">WmBrokerDeployer</value>
+  <value name="build"></value>
+  <value name="description">A package to help deployer deploy artifacts, checkpoint for Broker.</value>
+  <value name="time">2019-08-30 02:00:48 CEST</value>
+  <value name="jvm_version">1.6</value>
+  <value name="publisher">webMethods, Inc.</value>
+  <value name="patch_nums">all</value>
+  <value name="webappLoad">yes</value>
+</Values>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="startup_services" javaclass="com.wm.util.Values">
+    <value name="wm.ps.serviceMock:startup"></value>
+    <value name="wm.bci.redefine:initialize"></value>
+  </record>
+  <record name="shutdown_services" javaclass="com.wm.util.Values">
+    <value name="wm.ps.serviceMock:shutdown"></value>
+    <value name="wm.bci.redefine:shutdown"></value>
+  </record>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="WmRoot">10.11.0</value>
+  </record>
+  <value name="name">WmServiceMock</value>
+  <value name="description">WmServiceMock Package</value>
+  <value name="jvm_version">11</value>
+  <value name="enabled">yes</value>
+  <value name="system_package">yes</value>
+  <value name="publisher">Software AG</value>
+  <value name="version">10.11.0.0.315</value>
+  <value name="build">315</value>
+  <array name="patch_history" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">GWM_10.11_wMTestSuiteServer_Fix1</value>
+      <value name="version">10.11.0.0.315</value>
+      <value name="build"></value>
+      <value name="description">GWM_10.11_wMTestSuiteServer_Fix1 (build # 10.11.0.1.320)</value>
+      <value name="time">2021-10-17 23:52:34 GMT-05:00</value>
+      <value name="jvm_version">11</value>
+      <value name="publisher">Software AG</value>
+      <value name="patch_nums"></value>
+    </record>
+  </array>
+</Values>
